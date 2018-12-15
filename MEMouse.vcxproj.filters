@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dll">
+      <UniqueIdentifier>{6f3e310f-30eb-4549-b90d-5516a737e75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dximouse">
+      <UniqueIdentifier>{84f1f08e-215f-4b4f-8d03-f4a1861979dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="MEMouse.cpp" />
+    <ClCompile Include="memouse\Mouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MEMouse.h" />
+    <ClInclude Include="memouse\Mouse.h" />
+  </ItemGroup>
+</Project>
