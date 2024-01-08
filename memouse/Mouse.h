@@ -69,7 +69,7 @@ namespace memouse
 			float MouseWheel;
 		};
 
-		std::map< std::string, size_t, unify::string::CaseInsensitiveLessThanTest > m_nameToIndex;
+		std::map< std::string, size_t, unify::string::CaseInsensitiveLessThanEqualTest > m_nameToIndex;
 		std::vector< Source > m_subSources;
 		std::vector< Source > m_subSourcesUpdated;
 	};
